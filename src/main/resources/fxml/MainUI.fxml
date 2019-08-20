@@ -186,7 +186,7 @@
                                  </GridPane.margin>
                                         </TextField>
                                       <Label text="存放目录" GridPane.columnIndex="2" GridPane.rowIndex="7" />
-                                      <TextField fx:id="mappingTargetProject" prefHeight="27.0" prefWidth="155.0" promptText="src/main/resources" text="src/main/resources" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="7">
+                                      <TextField fx:id="mappingTargetProject" prefHeight="27.0" prefWidth="155.0" promptText="src/main/resources" text="src/main/java" GridPane.columnIndex="3" GridPane.columnSpan="2" GridPane.rowIndex="7">
                                  <GridPane.margin>
                                     <Insets left="5.0" />
                                  </GridPane.margin></TextField>
@@ -218,7 +218,7 @@
                                     </HBox>
                                     <HBox>
                                        <children>
-                                          <CheckBox fx:id="needToStringHashcodeEquals" mnemonicParsing="false" selected="true" text="生成toString/hashCode/equals方法">
+                                          <CheckBox fx:id="needToStringHashcodeEquals" mnemonicParsing="false" selected="false" text="生成toString/hashCode/equals方法">
                                              <HBox.margin>
                                                 <Insets right="10.0" />
                                              </HBox.margin></CheckBox>
